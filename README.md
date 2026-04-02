@@ -12,6 +12,19 @@ My Master's thesis developed a data-based methodology for long-term distribution
 
 ## 📂 Projects
 
+### ⚡ 2D Grid Flow Desktop
+**Code:** [grid-flow-desktop](https://github.com/AleksiAu/grid-flow-desktop)
+
+| | |
+|---|---|
+| **Objective** | Build an interactive desktop tool for visualising and editing DC power flow in distribution and transmission networks |
+| **Description** | PySide6 desktop application with IEC-inspired node symbols (generator, substation, consumer, connection point), live DC nodal B-θ solver, and optional PyPSA LPF engine. Supports drag-and-drop editing, separator toggling, connection-point capacity dispatch, and JSON save/load. Modular package architecture separates data model, solver, graphics, and UI layers. |
+| **Key question** | *How do topology changes and load shifts propagate as power flows across the network?* |
+| **Tools** | Python, PySide6, NumPy, Pandas, PyPSA (optional) |
+| **Results** | Fully interactive editor with real-time power flow updates. Architecture refactored to use Qt signals instead of back-references, enabling clean separation between the graphics layer and application logic. |
+
+---
+
 ### 🗺️ Spatial Grid Analysis
 **Code:** [spatial-grid-analysis](https://github.com/AleksiAu/spatial-grid-analysis)
 
@@ -64,6 +77,8 @@ My Master's thesis developed a data-based methodology for long-term distribution
 
 ---
 
+
+
 ## 🛠️ Skills
 
 | Category | Details |
@@ -94,4 +109,4 @@ My Master's thesis developed a data-based methodology for long-term distribution
 
 If you'd like to discuss my work, potential roles, or collaboration — feel free to reach out!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/aleksiauramo) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:aleksi.auramo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/aleksiauramo) [![Email](https://img.shields.io/badge/EA4335?style=flat&logo=gmail&logoColor=white)](mailto:aleksi.auramo@gmail.com)
