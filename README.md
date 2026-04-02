@@ -4,26 +4,13 @@ Welcome to my data portfolio! Here I document my projects in energy data analyti
 
 ## 🧑‍💻 About Me
 
-I'm an MSc (Tech) in Electrical Engineering with a minor in Data Analytics, currently working as a Design Engineer at a distribution network company in Finland. My work focuses on building data-driven tools to support grid planning, investment prioritization, and load analysis. I'm experienced in processing large-scale smart meter data with Python and DuckDB, building geospatial visualizations, and applying statistical and ML methods to real energy system problems.
+I'm an MSc (Tech) in Electrical Engineering with a minor in Data Analytics, currently working as an Analyst in Power Trading at Gasum Oy. My background is in distribution network planning and data analytics — building tools for load forecasting, geospatial grid analysis, and regulatory reporting. I'm experienced in processing large-scale smart meter data with Python and DuckDB, building geospatial visualizations, and applying statistical and ML methods to real energy system problems.
 
 My Master's thesis developed a data-based methodology for long-term distribution and medium-voltage network development planning.
 
 ---
 
 ## 📂 Projects
-
-### ⚡ 2D Grid Flow Desktop
-**Code:** [grid-flow-desktop](https://github.com/AleksiAu/grid-flow-desktop)
-
-| | |
-|---|---|
-| **Objective** | Build an interactive desktop tool for visualising and editing DC power flow in distribution and transmission networks |
-| **Description** | PySide6 desktop application with IEC-inspired node symbols (generator, substation, consumer, connection point), live DC nodal B-θ solver, and optional PyPSA LPF engine. Supports drag-and-drop editing, separator toggling, connection-point capacity dispatch, and JSON save/load. Modular package architecture separates data model, solver, graphics, and UI layers. |
-| **Key question** | *How do topology changes and load shifts propagate as power flows across the network?* |
-| **Tools** | Python, PySide6, NumPy, Pandas, PyPSA (optional) |
-| **Results** | Fully interactive editor with real-time power flow updates. Architecture refactored to use Qt signals instead of back-references, enabling clean separation between the graphics layer and application logic. |
-
----
 
 ### 🗺️ Spatial Grid Analysis
 **Code:** [spatial-grid-analysis](https://github.com/AleksiAu/spatial-grid-analysis)
@@ -77,7 +64,18 @@ My Master's thesis developed a data-based methodology for long-term distribution
 
 ---
 
+### ⚡ 2D Grid Flow Desktop
+**Code:** [grid-flow-desktop](https://github.com/AleksiAu/grid-flow-desktop)
 
+| | |
+|---|---|
+| **Objective** | Build an interactive desktop tool for visualising and editing DC power flow in distribution and transmission networks |
+| **Description** | PySide6 desktop application with IEC-inspired node symbols (generator, substation, consumer, connection point), live DC nodal B-θ solver, and optional PyPSA LPF engine. Supports drag-and-drop editing, separator toggling, connection-point capacity dispatch, and JSON save/load. Modular package architecture separates data model, solver, graphics, and UI layers. |
+| **Key question** | *How do topology changes and load shifts propagate as power flows across the network?* |
+| **Tools** | Python, PySide6, NumPy, Pandas, PyPSA (optional) |
+| **Results** | Fully interactive editor with real-time power flow updates. Architecture refactored to use Qt signals instead of back-references, enabling clean separation between the graphics layer and application logic. |
+
+---
 
 ## 🛠️ Skills
 
@@ -97,6 +95,7 @@ My Master's thesis developed a data-based methodology for long-term distribution
 
 | | |
 |---|---|
+| **MBA (ongoing)** | Business Analytics — LUT University (2026–) |
 | **MSc (Tech)** | Electrical and Electronics Engineering — LUT University (2020–2025) |
 | **Major** | Electrical Networks and Markets |
 | **Minor** | Data Analytics |
